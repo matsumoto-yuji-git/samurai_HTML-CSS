@@ -1,0 +1,36 @@
+<html lang="ja">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .media {
+                background-color: blue;
+            }
+            @media screen and (min-width: 480px) {
+                .media {
+                    background-color: red;
+                }
+            }
+            @media screen and (min-width: 640px) {
+                .media {
+                    background-color: green;
+                }
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 300px;
+                grid-template-rows: 100px 100px 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="media">
+            <div class="grid">
+            <h1>hogehoge</h1>
+            <h1>fugafuga</h1>
+            <h1>foowfoow</h1>
+            <h1>baarbaar</h1>
+            <h1>gorigori</h1>
+            </div>
+        </div>
+    </body>
+</html>
